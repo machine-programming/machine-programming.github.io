@@ -1,5 +1,5 @@
 body { background: #f8f9fa; }
-header { background: #003366; color: #fff; padding: 1.5rem 0; text-align: center; }
+header { background: #003366; color: #fff; padding: 3.5rem 0; text-align: center; }
 nav { background: #00509e; padding: 0.5rem 0; text-align: center; }
 nav a { color: #fff; margin: 0 1.5rem; text-decoration: none; font-weight: bold; }
 nav a:hover { text-decoration: underline; }
