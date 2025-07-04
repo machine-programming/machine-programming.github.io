@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Readings - EN.601.727 Machine Programming</title>
+    <title>Readings - Machine Programming - Fall 2025</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -16,7 +16,8 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="assignments.html">Assignments</a>
-        <a href="readings.html">Readings</a>
+        <a href="readings.html" class="active">Readings</a>
+        <a href="project.html">Final Project</a>
         <a href="index.html#calendar">Calendar</a>
     </nav>
     <main>
@@ -25,86 +26,176 @@
             <p>This page contains relevant papers, courses, and webpages organized by topic.</p>
             
             <div class="mb-4">
-                <h3>Program Synthesis Foundations</h3>
-                <h4>Papers</h4>
+                <h3>Topic 1: Code Large Language Models</h3>
+                <h4>Papers for Presentation, Critique, & Discussion</h4>
+                <h5>Popular Generative Models for Code</h5>
                 <ul>
-                    <li><a href="#" target="_blank">[Paper Title]</a> - [Authors] - [Year]</li>
-                    <!-- Add more papers -->
+                    <li><a href="https://arxiv.org/abs/2308.12950" target="_blank">Code Llama</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2305.06161" target="_blank">StarCoder</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/pdf/2401.14196" target="_blank">DeepSeek Coder</a> - [2024]</li>
+                </ul>
+                <h5>Alternative Generative Models for Code</h5>
+                <ul>
+                    <li><a href="https://arxiv.org/pdf/2402.01935" target="_blank">CodeSage</a> - [2024]</li>
                 </ul>
                 
-                <h4>Courses</h4>
+                <h4>Supplemental Materials</h4>
+                <h5>Supplemental for Paper 1 (Code Llama)</h5>
                 <ul>
-                    <li><a href="#" target="_blank">[Course Title]</a> - [Institution]</li>
-                    <!-- Add more courses -->
+                    <li><a href="https://arxiv.org/abs/2302.13971" target="_blank">Llama</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2307.09288" target="_blank">Llama 2</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2310.06266" target="_blank">CodeFuse</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2201.07520" target="_blank">Casual Masking</a> - [2022]</li>
                 </ul>
                 
-                <h4>Webpages</h4>
+                <h5>Supplemental for Paper 2 (StarCoder)</h5>
                 <ul>
-                    <li><a href="#" target="_blank">[Webpage Title]</a> - [Description]</li>
-                    <!-- Add more webpages -->
+                    <li><a href="https://arxiv.org/abs/2301.03988" target="_blank">SantaCoder</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/pdf/2211.15533" target="_blank">The Stack</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/html/2402.17463v2" target="_blank">8K token context length</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/pdf/2207.14255" target="_blank">Fill-in-the-middle</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/pdf/1911.02150" target="_blank">Multi-Query-Attention</a> - [2019]</li>
+                    <li><a href="https://arxiv.org/abs/1810.04805" target="_blank">BERT</a> - [2018]</li>
+                </ul>
+                
+                <h5>Supplemental for Paper 3 (DeepSeek Coder)</h5>
+                <ul>
+                    <li><a href="https://deepseekcoder.github.io/" target="_blank">DeepSeek Coder Repo</a></li>
+                    <li><a href="https://arxiv.org/abs/2310.06266" target="_blank">CodeFuse</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/pdf/2207.14255" target="_blank">Fill-in-the-middle</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/abs/2203.13474" target="_blank">CodeGen</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/abs/1508.07909" target="_blank">BPE</a> - [2015]</li>
+                    <li><a href="https://arxiv.org/abs/2104.09864" target="_blank">RoPE</a> - [2021]</li>
+                </ul>
+                
+                <h5>Supplemental for Paper 4 (CodeSage)</h5>
+                <ul>
+                    <li><a href="https://aclanthology.org/2021.emnlp-main.552/" target="_blank">SimCSE</a> - [2021]</li>
+                    <li><a href="https://aclanthology.org/2022.acl-long.499/" target="_blank">UniXCoder</a> - [2022]</li>
+                    <li><a href="https://openreview.net/forum?id=3ez9BSHTNT" target="_blank">DOBF</a> - [2022]</li>
+                </ul>
+                
+                <h5>General Supplemental</h5>
+                <ul>
+                    <li><a href="https://aclanthology.org/2023.acl-long.411/" target="_blank">Large Language Models Meet NL2Code</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2311.07989" target="_blank">A Survey on Language Models for Code</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2002.05442" target="_blank">Deep Learning for Source Code Modeling and Generation</a> - [2020]</li>
+                    <li><a href="https://arxiv.org/abs/2305.07922" target="_blank">CodeT5+ (Encoder-Decoder Models)</a> - [2023]</li>
+                    <li><a href="https://www.microsoft.com/en-us/research/publication/codefusion-a-pre-trained-diffusion-model-for-code-generation/" target="_blank">CodeFusion (Diffusion Models)</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2204.06125" target="_blank">DALL-E 2</a> - [2022]</li>
                 </ul>
             </div>
 
             <div class="mb-4">
-                <h3>Large Language Models for Programming</h3>
-                <h4>Papers</h4>
+                <h3>Topic 2: Evaluation of Code Models</h3>
+                <h4>Papers for Presentation, Critique, & Discussion</h4>
                 <ul>
-                    <li><a href="#" target="_blank">[Paper Title]</a> - [Authors] - [Year]</li>
-                    <!-- Add more papers -->
+                    <li><a href="https://arxiv.org/abs/2403.07974" target="_blank">LiveCodeBench</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/abs/2310.06770" target="_blank">SWE-bench: Can Language Models Resolve Real-World GitHub Issues?</a> - [2023]</li>
                 </ul>
                 
-                <h4>Courses</h4>
+                <h4>Supplemental Materials</h4>
+                <h5>Supplemental for Paper 1 (LiveCodeBench)</h5>
                 <ul>
-                    <li><a href="#" target="_blank">[Course Title]</a> - [Institution]</li>
-                    <!-- Add more courses -->
+                    <li><a href="https://livecodebench.github.io/" target="_blank">LiveCodeBench Repo</a></li>
+                    <li><a href="https://arxiv.org/abs/2107.03374" target="_blank">HumanEval/Codex (Accuracy)</a> - [2021]</li>
+                    <li><a href="https://arxiv.org/abs/2212.10264" target="_blank">ReCode: Robustness Evaluation of Code Generation Models (Trustworthiness)</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/abs/2108.07732" target="_blank">MBPP</a> - [2021]</li>
                 </ul>
                 
-                <h4>Webpages</h4>
+                <h5>Supplemental for Paper 2 (SWE-bench)</h5>
                 <ul>
-                    <li><a href="#" target="_blank">[Webpage Title]</a> - [Description]</li>
-                    <!-- Add more webpages -->
+                    <li><a href="https://arxiv.org/abs/2403.08604" target="_blank">DevBench: A Comprehensive Benchmark for Software Development</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/abs/2401.06401" target="_blank">DevEval: Evaluating Code Generation in Practical Software Projects</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/abs/2310.11248" target="_blank">CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2304.10778" target="_blank">Evaluating the Code Quality of AI-Assisted Code Generation Tools: An Empirical Study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT</a> - [2023]</li>
+                </ul>
+                
+                <h5>General Supplemental</h5>
+                <ul>
+                    <li><a href="https://arxiv.org/abs/2212.10264" target="_blank">ReCode: Robustness Evaluation of Code Generation Models (Trustworthiness)</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/abs/2102.04664" target="_blank">CodeXGLUE</a> - [2021]</li>
+                    <li><a href="https://arxiv.org/abs/2206.08474" target="_blank">XLCoST</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/abs/2105.09938" target="_blank">APPS</a> - [2021]</li>
+                    <li><a href="https://arxiv.org/abs/2203.07814" target="_blank">CodeContest/AlphaCode</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/abs/2211.11501" target="_blank">DS-1000</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/abs/2303.03004" target="_blank">xCodeEval</a> - [2023]</li>
+                    <li><a href="https://github.com/bigcode-project/bigcode-evaluation-harness" target="_blank">BigCode Eval Harness</a></li>
+                    <li><a href="https://huggingface.co/blog/leaderboard-bigcodebench" target="_blank">BigCodeBench</a></li>
+                    <li><a href="https://lmarena.ai/?leaderboard" target="_blank">LMSYS Coding</a></li>
                 </ul>
             </div>
 
             <div class="mb-4">
-                <h3>Interactive Program Synthesis</h3>
-                <h4>Papers</h4>
+                <h3>Topic 3: Agents</h3>
+                <h4>Papers for Presentation, Critique, & Discussion</h4>
                 <ul>
-                    <li><a href="#" target="_blank">[Paper Title]</a> - [Authors] - [Year]</li>
-                    <!-- Add more papers -->
+                    <li><a href="https://arxiv.org/pdf/2406.11638" target="_blank">MASAI</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/abs/2404.05427" target="_blank">AutoCodeRover</a> - [2024]</li>
                 </ul>
                 
-                <h4>Courses</h4>
+                <h4>General Supplemental</h4>
                 <ul>
-                    <li><a href="#" target="_blank">[Course Title]</a> - [Institution]</li>
-                    <!-- Add more courses -->
-                </ul>
-                
-                <h4>Webpages</h4>
-                <ul>
-                    <li><a href="#" target="_blank">[Webpage Title]</a> - [Description]</li>
-                    <!-- Add more webpages -->
+                    <li>TBD</li>
                 </ul>
             </div>
 
             <div class="mb-4">
-                <h3>Program Repair and Verification</h3>
-                <h4>Papers</h4>
+                <h3>Topic 4: Improving Code Generation</h3>
+                <h4>Papers for Presentation, Critique, & Discussion</h4>
                 <ul>
-                    <li><a href="#" target="_blank">[Paper Title]</a> - [Authors] - [Year]</li>
-                    <!-- Add more papers -->
+                    <li><a href="https://arxiv.org/pdf/2410.05605" target="_blank">CODEDPO</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/pdf/2410.02749" target="_blank">LintSeq</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/pdf/2405.21047" target="_blank">GAD</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/pdf/2407.03157" target="_blank">PIE</a> - [2024]</li>
                 </ul>
                 
-                <h4>Courses</h4>
+                <h4>General Supplements</h4>
                 <ul>
-                    <li><a href="#" target="_blank">[Course Title]</a> - [Institution]</li>
-                    <!-- Add more courses -->
+                    <li><a href="https://arxiv.org/abs/2212.10007" target="_blank">CoCoMIC: Code Completion By Jointly Modeling In-file and Cross-file Context</a> - [2022]</li>
+                    <li><a href="https://arxiv.org/abs/2306.10998" target="_blank">RepoFusion: Training Code Models to Understand Your Repository</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2306.10763" target="_blank">Guiding Language Models of Code with Global Context using Monitors</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2309.12499" target="_blank">CodePlan: Repository-level Coding using LLMs and Planning</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2312.05772" target="_blank">A^3-CodGen: A Repository-Level Code Generation Framework for Code Reuse with Local-Aware, Global-Aware, and Third-Party-Library-Aware</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2402.14323" target="_blank">REPOFUSE: Repository-Level Code Completion with Fused Dual Context</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/abs/2009.08553" target="_blank">Generation-Augmented Retrieval for Open-domain Question Answering</a> - [2020]</li>
+                    <li><a href="https://arxiv.org/abs/2303.07678" target="_blank">Query2doc: Query Expansion with Large Language Models</a> - [2023]</li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <h3>Topic 5: Interpretability of Code Models</h3>
+                <h4>Papers for Presentation, Critique, & Discussion</h4>
+                <ul>
+                    <li><a href="https://www.mdpi.com/1099-4300/23/1/18" target="_blank">Explainable AI</a> - [2021]</li>
+                    <li><em>Note: Explainable AI is a heavy paper, both groups of people should focus on the same paper.</em></li>
                 </ul>
                 
-                <h4>Webpages</h4>
+                <h4>General Supplemental</h4>
                 <ul>
-                    <li><a href="#" target="_blank">[Webpage Title]</a> - [Description]</li>
-                    <!-- Add more webpages -->
+                    <li><a href="https://arxiv.org/abs/2402.01761" target="_blank">Rethinking Interpretability in the Era of Large Language Models</a> - [2024]</li>
+                    <li><a href="https://arxiv.org/abs/2103.11251" target="_blank">Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges</a> - [2021]</li>
+                    <li><a href="https://arxiv.org/abs/2310.06680" target="_blank">Benchmarking and Explaining Large Language Model-based Code Generation: A Causality-Centric Approach</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2308.12415" target="_blank">Benchmarking Causal Study to Interpret Large Language Models for Source Code</a> - [2023]</li>
+                    <li><a href="https://arxiv.org/abs/2310.07958" target="_blank">Towards Causal Deep Learning for Vulnerability Detection</a> - [2023]</li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <h3>Topic 6: Applications</h3>
+                <h4>Papers for Presentation, Critique, & Discussion</h4>
+                <ul>
+                    <li><a href="https://arxiv.org/pdf/2402.09497" target="_blank">SafeCoder</a> - [2024]</li>
+                    <li><a href="https://www.cs.utexas.edu/~isil/coeditor.pdf" target="_blank">Coeditor</a> - [2024]</li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <h3>Topic 7: Neurosymbolic AI</h3>
+                <h4>Papers for Presentation, Critique, & Discussion</h4>
+                <ul>
+                    <li><a href="https://arxiv.org/pdf/2310.12690" target="_blank">COSMOS</a> - [2023]</li>
+                    <li><a href="https://drive.google.com/file/d/1t8Veh-JX7xCRtcHcHPmFtnfM38zXK31D/view" target="_blank">LLM on Program Invariants</a> - [2023]</li>
                 </ul>
             </div>
         </section>
