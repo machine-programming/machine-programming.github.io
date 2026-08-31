@@ -27,7 +27,7 @@
 <body>
     <header>
         <h1>EN.601.727 Machine Programming</h1>
-        <p>Johns Hopkins University &mdash; Fall 2025</p>
+        <p>Johns Hopkins University &mdash; Fall 2026</p>
         <p><strong>Instructor:</strong> Ziyang Li &nbsp; | &nbsp; <strong>Email:</strong> <a
                 href="mailto:ziyang@cs.jhu.edu">ziyang@cs.jhu.edu</a></p>
     </header>
@@ -81,16 +81,16 @@
         <section>
             <h3>Project Timeline</h3>
             <ul>
-                <li><strong>Week 13 (Nov 18):</strong> Project proposal due</li>
-                <li><strong>Friday, December 12:</strong> Final project presentations (9:00 AM – 12:00 PM, Maryland Hall 217)</li>
-                <li><strong>Tuesday, December 16:</strong> Final report due (via Grade-scope)</li>
+                <li><strong>TBD:</strong> Project proposal due</li>
+                <li><strong>TBD:</strong> Final project presentations (during the final exam period, Dec 15&ndash;23; time and location TBD)</li>
+                <li><strong>TBD:</strong> Final report due (via Grade-scope)</li>
             </ul>
         </section>
 
         <section>
             <h3>Presentation Details</h3>
             <p>
-                The final project presentations will take place on <strong>Friday, December 12</strong> from <strong>9:00 AM – 12:00 PM</strong> in <strong>Maryland Hall 217</strong>.
+                The final project presentations will take place on a date <strong>TBD</strong> during the final exam period (Dec 15&ndash;23); the time and location are also <strong>TBD</strong>.
                 Each group will have <strong>10 minutes for presentation</strong> followed by <strong>5 minutes for Q&A</strong>.
                 Please make sure your slides are well-prepared and that you stay within time so everyone gets a fair slot.
             </p>
@@ -99,17 +99,17 @@
         <section>
             <h3>Final Write-Up Requirements</h3>
             <p>
-                The final project report/write-up is due on <strong>Tuesday, December 16</strong> and should be submitted via <strong>Grade-scope</strong>.
+                The final project report/write-up is due <strong>TBD</strong> and should be submitted via <strong>Grade-scope</strong>.
             </p>
             <h4>Formatting Requirements</h4>
             <p>
                 Please typeset your write-up professionally using <strong>LaTeX</strong> or <strong>Typst</strong>.
-                For this class, we will use the <strong>NeurIPS template</strong>:
+                For this class, we will use the <strong>NeurIPS 2026 template</strong>:
             </p>
             <ul>
-                <li><a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip" target="_blank">LaTeX package</a></li>
-                <li><a href="https://typst.app/universe/package/bloated-neurips/0.7.0/" target="_blank">Typst Universe Template</a></li>
-                <li><a href="https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh" target="_blank">Overleaf NeurIPS 2024 template</a> (if using Overleaf)</li>
+                <li><a href="https://www.overleaf.com/latex/templates/neurips-2024/tpsbbrdqcmsh" target="_blank">Overleaf NeurIPS template</a></li>
+                <li><a href="https://typst.app/universe/package/bloated-neurips/0.8.0/" target="_blank">Typst Universe template</a></li>
+                <li><a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip" target="_blank">LaTeX style package</a></li>
             </ul>
             <p>
                 <em>Note: If you do not know <a href="https://typst.app" target="_blank">Typst</a> yet, please look it up as it may be a good replacement of LaTeX.</em>
@@ -134,62 +134,35 @@
             <h3>Project Ideas</h3>
             <p>Here are some example project areas to consider:</p>
             <ol>
-                <li>
-                    Construct (either manually, by crawling, or by existing models) a mid-to-large-scale dataset
-                    studying a specific programming language or domain
-                </li>
-                <li>
-                    Pick a relatively low-resource language
-                    (<a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)" target="_blank">Haskell</a>,
-                    <a href="https://en.wikipedia.org/wiki/Prolog" target="_blank">Prolog</a>,
-                    <a href="https://en.wikipedia.org/wiki/Datalog" target="_blank">Datalog</a>,
-                    <a href="https://scallop.github.io/" target="_blank">Scallop</a>,
-                    <a href="https://en.wikipedia.org/wiki/CodeQL" target="_blank">CodeQL</a>,
-                    <a href="https://en.wikipedia.org/wiki/LEAN_(proof_assistant)" target="_blank">LEAN</a>,
-                    <a href="https://en.wikipedia.org/wiki/Coq" target="_blank">Coq</a>,
-                    <a href="https://en.wikipedia.org/wiki/Z3_(satisfiability_modulo_theories_solver)"
-                        target="_blank">Z3</a>,
-                    <a href="https://en.wikipedia.org/wiki/Racket_(programming_language)" target="_blank">Racket</a>,
-                    <a href="https://en.wikipedia.org/wiki/Clojure" target="_blank">Clojure</a>,
-                    <a href="https://en.wikipedia.org/wiki/LaTeX" target="_blank">LaTeX</a>,
-                    <a href="https://en.wikipedia.org/wiki/TikZ" target="_blank">TikZ</a>,
-                    <a href="https://en.wikipedia.org/wiki/Processing_(programming_language)"
-                        target="_blank">Processing</a>,
-                    <a href="https://en.wikipedia.org/wiki/PDDL" target="_blank">PDDL</a>)
-                    and construct a small-scale dataset and evaluate LLMs' performance on synthesizing programs within
-                    the language
-                </li>
-                <li>
-                    Pick a high-resource language but a specific domain (Kernel driver within C, CUDA drivers, Unreal
-                    Engine Programming within C++, Neural Network Modules within Python/PyTorch/JAX) and evaluate LLMs'
-                    performance on the domain
-                </li>
-                <li>
-                    Design a small domain-specific language (for robot control, games, theorem proving, databases,
-                    maths, logic, visualization, animation, and etc.) and demonstrate LLMs' capability generating
-                    programs within the language
-                </li>
-                <li>
-                    Implementing a conversational coding agent that can help users make edits or feature requests to a
-                    codebase
-                </li>
-                <li>
-                    Implementing a downstream application that involves synthesizing of programs
-                </li>
-                <li>
-                    Using LLMs to synthesize formal specifications for existing programs, and properly evaluate the
-                    generated specifications
-                </li>
-                <li>
-                    Identifying security vulnerabilities within LLM generated programs
-                </li>
-                <li>
-                    Implementing the technique in existing papers (refer to <a href="readings.html"
-                        target="_blank">Readings</a>)
-                </li>
+                <li>Build a mid-to-large-scale dataset for a particular programming language or domain, whether by hand, by crawling, or with existing models.</li>
+                <li>Pick a low-resource language (<a href="https://en.wikipedia.org/wiki/Haskell_(programming_language)" target="_blank">Haskell</a>, <a href="https://en.wikipedia.org/wiki/Prolog" target="_blank">Prolog</a>, <a href="https://en.wikipedia.org/wiki/Datalog" target="_blank">Datalog</a>, <a href="https://scallop.github.io/" target="_blank">Scallop</a>, <a href="https://en.wikipedia.org/wiki/CodeQL" target="_blank">CodeQL</a>, <a href="https://en.wikipedia.org/wiki/LEAN_(proof_assistant)" target="_blank">LEAN</a>, <a href="https://en.wikipedia.org/wiki/Coq" target="_blank">Coq</a>, <a href="https://en.wikipedia.org/wiki/Z3_(satisfiability_modulo_theories_solver)" target="_blank">Z3</a>, <a href="https://en.wikipedia.org/wiki/Racket_(programming_language)" target="_blank">Racket</a>, <a href="https://en.wikipedia.org/wiki/Clojure" target="_blank">Clojure</a>, <a href="https://en.wikipedia.org/wiki/LaTeX" target="_blank">LaTeX</a>, <a href="https://en.wikipedia.org/wiki/TikZ" target="_blank">TikZ</a>, <a href="https://en.wikipedia.org/wiki/Processing_(programming_language)" target="_blank">Processing</a>, <a href="https://en.wikipedia.org/wiki/PDDL" target="_blank">PDDL</a>) and build a small-scale dataset to measure how well LLMs synthesize programs in it.</li>
+                <li>Pick a high-resource language but a narrow domain &mdash; kernel drivers in C, CUDA, Unreal Engine in C++, neural network modules in Python/PyTorch/JAX &mdash; and evaluate LLMs there.</li>
+                <li>Design a small domain-specific language for robot control, games, theorem proving, databases, mathematics, logic, visualization, or animation, and show how well LLMs generate programs in it.</li>
+                <li>Build a conversational coding agent that carries out edits and feature requests on a codebase.</li>
+                <li>Build a downstream application that relies on program synthesis.</li>
+                <li>Use LLMs to synthesize formal specifications for existing programs, and evaluate the generated specifications rigorously.</li>
+                <li>Identify security vulnerabilities in LLM-generated programs.</li>
+                <li>Reimplement a technique from the literature (see <a href="readings.html" target="_blank">Readings</a>).</li>
             </ol>
             <p><em>Note: These are suggestions only. You are encouraged to propose your own ideas based on your
                     interests and background.</em></p>
+        </section>
+
+        <section>
+            <h3>Turning into a Research Project</h3>
+            <p>
+                You are strongly encouraged to do so.
+                If you have an interest in turning your final project into an academic research paper,
+                please come to the instructor as early in the semester as possible.
+            </p>
+            <p>
+                In Fall 2025, a few course projects were later turned into research papers that are currently under submission:
+            </p>
+            <ul>
+                <li>Yuming Feng et al., <a href="https://arxiv.org/abs/2606.26525" target="_blank">Theory-Scale Auto-Formalization of Logics for Computer Science</a></li>
+                <li>Tadd Mao et al., <a href="https://arxiv.org/abs/2608.15432" target="_blank">Does the Proof Prove It That Way? Faithful Formalization of Elements Proofs</a></li>
+                <li>Zhiming Chang et al., <a href="https://arxiv.org/abs/2605.23931" target="_blank">BODHI: Precise OS Kernel Specification Inference</a></li>
+            </ul>
         </section>
     </main>
 </body>
